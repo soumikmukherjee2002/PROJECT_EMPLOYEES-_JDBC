@@ -28,7 +28,7 @@ public class PROJECTEmpService {
         System.out.println("Enter the employee id:");
         int id = sc.nextInt();
         System.out.println("Enter the employee name:");
-        String name = sc.nextLine();
+        String name = sc.next();
         int res = 0;
 
         String sql = "INSERT INTO emp (id, name) VALUES (?, ?)";
